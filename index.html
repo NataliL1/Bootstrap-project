@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://bootswatch.com/5/pulse/bootstrap.min.css">
+    <link rel="icon" type="image/x-icon" href="images/beautylogo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>За нас</title>
+    <style type="text/css">
+      body {
+        background-color: #21002E;
+      }
+
+      .header {
+        background-image: url(images/headerphoto2.jpg);
+        height: 700px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+
+      h1 {
+        font-size: 60px;
+      }
+
+      .icons {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+      }
+
+      #myBtn {
+        position: fixed;
+        right: 10px;
+        bottom: 100px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+      .card-body{
+        background-color: #A795BF;
+        border: 2px;
+        border-radius: 20%;
+        border-style: outset;
+
+      }
+      .card{
+        background-color: #21002E;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="ModalLabel">Вход</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Имейл</label>
+            </div>
+            <div class="form-floating">
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">Парола</label>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Затвори</button>
+            <button type="button" class="btn btn-primary">Влез</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img class="img-fluid" width="40" height="30" src="images/beautylogo.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">За нас</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="proceduri.html">Процедури</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="chas.html">Контакти</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#Modal">Вход</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-sm-2" type="text" placeholder="Напиши тук">
+            <button class="btn btn-dark my-2 my-sm-0" type="submit">Търси</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid header">
+      <div class="row">
+        <div class="col-12 text-primary mt-5 pt-5 text-center">
+          <h1 class="fw-bold mt-5 pt-5">Салон за красота <br>Dima Style </h1>
+          <h2 class="fst-italic mt-5 pt-5">Доверете се на професионалистите</h2>
+        </div>
+      </div>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fa fa-arrow-up text-primary"></i>
+    </button>
+    <div class="container-fluid pt-5">
+      <div class="container">
+        <div class="row my-5">
+          <div class="col">
+            <h3 class="text-primary text-center">История</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p class="text-secondary" style="text-align: justify;">През 1993г. Дима Тодорова създаде първия по рода си салон на територията на България за удължаване и сгъстяване на косата. Това е поредният отрасъл, допринесъл за по-нататъшното развитие на фризьорството. За тези години самостоятелна работа Дима Стил се доказа като лидер в тази област с качеството на предлаганите услуги, коси и най-добрите специалисти. Дима Стил разработи и патентова уникални методи за удължаване и сгъстяване на косата, от които се възхищават дори и в най-добрите европейски салони в Лондон, Париж, Берлин. Холивудски звезди като Симон Маккинън от “Спасители на плажа” и Еинджъл Борис от “Бевърли Хилс” също са се възползвали от услугите на салона, по време на снимките си в България. Освен с методиките и технологиите за удължаване на косата Дима Стил е също и салонът, който за първи път в България, въведе понятието перманентен (траен) грим. Ние сме: - Първият салон за удължаване на косата в България от 1993 година. - Първият в България салон, който предлага услугата "перманентен грим".</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row my-5">
+        <div class="col">
+          <h3 class="text-primary text-center">Актуални новини</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12 mb-lg-0 mb-md-2 mb-sm-2">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">50% отстъпка при първо посещение</h5>
+              <p class="card-text">При първо посещение в салона, всеки нов клиент ползва 50% отстъпка от цените на услугите.</p>
+              <p class="card-text text-muted">**офертата не важи за продукти и коси</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 mt-lg-0 mt-md-2 mt-sm-2">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Нашият салон е в ТОП 100 козметични локации в България</h5>
+              <p class="card-text">Радваме се да съобщим, че сме част от ТОП 100 козметични локации за красота в България.</p>
+              <p class="card-text text-muted">Благодарим Ви</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-5">
+      <section>
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-10 col-xl-8 text-center">
+            <h3 class="mb-4 text-primary">Нашите клиенти</h3>
+            <p class="mb-4 pb-2 mb-md-5 pb-md-0"></p>
+          </div>
+        </div>
+        <div class="row text-center text-secondary">
+          <div class="col-md-4 mb-5 mb-md-0">
+            <div class="d-flex justify-content-center mb-4">
+              <img src="images/women1.jpg" class="rounded img-fluid img-thumbnail shadow-1-strong" width="200" height="200" />
+            </div>
+            <h5 class="mb-3">Мария Иванова</h5>
+            <p class="px-xl-3">
+              <i class="fa fa-quote-left pe-2"></i>Професионално и прецизно обслужване,благодаря за което . Ще се възползвам отново.
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center mb-0">
+              <li>
+                <i class="fa fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fa fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fa fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fa fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fa fa-star fa-sm text-warning"></i>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-5 mb-md-0">
+            <div class="d-flex justify-content-center mb-4">
+              <img src="images/women2.jpg" class="rounded img-fluid img-thumbnail shadow-1-strong" width="200" height="200" />
+            </div>
+            <h5 class="mb-3">Анита Стефанова</h5>
+            <p class="px-xl-3">
+              <i class="fa fa-quote-left pe-2"></i>Качество и стил съчетано в едно. Перфектна работа на фризьорката!
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center mb-0">
+              <li>
+                <i class="fa fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fa fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fa fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fa fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fa fa-star fa-sm text-warning"></i>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-0">
+            <div class="d-flex justify-content-center mb-4">
+              <img src="images/women3.jpg" class="rounded img-fluid img-thumbnail shadow-1-strong" width="200" height="200" />
+            </div>
+            <h5 class="mb-3">Рая Велева</h5>
+            <p class="px-xl-3">
+              <i class="fa fa-quote-left pe-2"></i>Професионализъм и перфектно обслужване! Бих го посетила отново!
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center mb-0">
+              <li>
+                <i class="fa fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fa fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fa fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fa fa-star fa-sm text-warning"></i>
+              </li>
+              <li>
+                <i class="fa fa-star fa-sm text-warning"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="container-fluid footer bg-light mt-5">
+      <div class="row align-items-center">
+        <div class="col-4">© 2022 ВСИЧКИ ПРАВА ЗАПАЗЕНИ</div>
+        <div class="col-4 text-center">
+          <a href="#" class="fa fa-facebook icons"></a>
+          <a href="#" class="fa fa-twitter icons"></a>
+          <a href="#" class="fa fa-instagram icons"></a>
+        </div>
+        <div class="col-4" style="text-align: right">
+          <a href="#" class="text-decoration-none">Privacy Policy Terms of Use</a>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      let mybutton = document.getElementById("myBtn");
+      window.onscroll = function() {
+        scrollFunction()
+      };
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </body>
+</html>
